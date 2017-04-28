@@ -1,0 +1,25 @@
+Algoritmo "turmas"
+//'A' - 'L':	Segunda-feira	Bloco A, Sala 11
+//'M' - 'O':	Terça-feira	Bloco A, Sala 11
+//'P' - 'Z'	Quarta-feira	Bloco C, Sala 302
+
+Var
+    nome: caracter
+
+Inicio
+
+
+      Escreva("Digite seu nome: ")
+      Leia(nome)
+      
+      Se((nome >= "A") e (nome <= "L")) entao
+           Escreva("Segunda Feira, Bloco A, sala 11")
+      fimse
+      se((nome >= "M") e (nome <= "O")) entao
+           Escreva("Terça Feira, Bloco A, sala 11")
+      fimse
+      se((nome >= "P") e (nome <= "Z")) entao
+           Escreva("Quarta Feira, Bloco C, sala 302")
+      fimse
+
+Fimalgoritmo
