@@ -1,0 +1,19 @@
+Algoritmo "emprestimo"
+Var
+     sal, prest, emp: real
+Inicio
+
+    escreva("Digite salario bruto: ")
+    leia(sal)
+    escreva("Digite valor da prestacao: ")
+    leia(prest)
+
+    emp<-sal*0.12
+
+    se(prest<=emp) entao
+    escreval("O emprestimo pode ser concedido.")
+    senao
+    escreval("O emprestimo nao pode ser concedido.")
+    fimse
+
+Fimalgoritmo
