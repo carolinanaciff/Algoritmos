@@ -1,0 +1,34 @@
+Algoritmo "grupo"
+
+Var
+       asg, as, ad, aconf, an, ac, esv, es, ed, lhn, lh, lu, nome: caractere
+       num, idade: inteiro
+Inicio
+
+      asg<-"ADRIANO SOUZA GERALDO"
+      as<-"ADRIANO SOUZA"
+      ad<- "ADRIANO"
+      aconf<- "ANA CAROLINA DE OLIVEIRA NACIFF FREITAS"
+      an<- "ANA CAROLINA"
+      ac<- "CAROLINA"
+      esv<- "EDSON DOS SANTOS VASCONCELOS"
+      es<- "EDSON DOS SANTOS"
+      ed<- "EDSON"
+      lhn<- "LUIZ HENRIQUE DO NASCIMENTO"
+      lh<- "LUIZ HENRIQUE"
+      lu<- "LUIZ"
+
+       escreva("Digite nome: ")
+       leia(nome)
+       escreva("Digite numero do aluno: ")
+       leia(num)
+       escreva("Digite idade: ")
+       leia(idade)
+
+       se((nome<>asg) e (nome<>as) e (nome<>ad) e (nome<>aconf) e (nome<>an) e (nome<>ac) e (nome<>esv) e (nome<>es) e (nome<>ed) e (nome<>lhn) e (nome<>lh) e (nome<>lu))entao
+       escreval("O/A aluno(a) ",nome," nº",num, idade," anos, nao e integrante do grupo")
+       senao
+       escreval("O/A aluno(a) ",nome," nº",num, idade," anos, e integrante do grupo")
+       fimse
+       
+Fimalgoritmo
